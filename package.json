@@ -12,7 +12,7 @@
     "puppeteer": "^2.0.0"
   },
   "scripts": {
-    "test": "tsc __tests__/ppp.ts && jest __tests__/ppp.js"
+    "test": "tsc && jest dist/ppp.test.js"
   },
   "author": "",
   "license": "ISC"
